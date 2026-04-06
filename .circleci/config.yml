@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: Flaky network test
-          command: echo "Simulating flaky testsss..." && exit 1
+          command: echo "Simulating flaky testssss..." && exit 1
 
 workflows:
   main:
